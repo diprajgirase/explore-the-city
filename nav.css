@@ -1,0 +1,32 @@
+.navbar-brand {
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.collapse {
+    font-family: Lato, sans-serif;
+    font-size: 23px;
+}
+
+.container1 {
+    margin-left: 140px; 
+}
+
+.div1 {
+    font-size: 30px;
+    align-items: center;
+}
+
+.container2 {
+    text-align: center;
+}
+
+.container3 {
+    text-align: center;
+    font-size: 43px;
+    font-weight: 700;
+}
+
+.col ul li a {
+    color: #9c9b9b; 
+  }
