@@ -10,7 +10,6 @@
 .image-box {
     position: relative;
     overflow: hidden;
-    /* Ensure the image doesn't overflow outside the box */
 }
 
 .image-box img {
@@ -18,7 +17,6 @@
     width: 100%;
     height: auto;
     transition: transform 0.7s;
-    /* Smooth zoom effect */
 }
 
 .text-overlay {
@@ -31,14 +29,11 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     z-index: 1;
-    /* Ensures text stays on top of the image */
     pointer-events: none;
-    /* Prevents the text from blocking the hover effect */
 }
 
 .image-box:hover img {
     transform: scale(1.1);
-    /* Zooms in the image on hover */
 }
 
 body {
