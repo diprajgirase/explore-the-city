@@ -1,0 +1,143 @@
+.image-box {
+    position: relative;
+}
+
+.image-box img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-box:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*Mid*/
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.section-title .highlight {
+    font-weight: 900;
+}
+
+.highlight1{
+    font-weight: 700;
+}
+
+.section-subtitle {
+    margin-top: 15px;
+    color: #777;
+}
+
+.image-box {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.image-box:hover img {
+    transform: scale(1.1);
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.text-overlay .highlight-text {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #f2c94c; /* yellow color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.info-box {
+    top: 0;
+    right: 0;
+    width: 50%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.info-title {
+    font-size: 1.5rem;
+}
+
+.info-title .highlight {
+    font-weight: bold;
+}
+
+.info-subtitle {
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.info-text {
+    margin-top: 15px;
+    color: #777;
+}
+
+.learn-more {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #e74c3c; /* red color */
+    text-decoration: none;
+}
+
+.badge-new {
+    top: 20px;
+    right: 20px;
+    padding: 5px 10px;
+    background-color: #f2c94c; /* yellow color */
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+}
+
+/*last section of images*/
+.img-box {
+    overflow: hidden;
+    border: 0px solid #ddd; /*Optional: add a border around the image*/
+}
+
+.img-box img {
+    transition: transform 0.3s ease;
+    width: 100%; /* Ensure the image fills the column */
+    height: auto;
+}
+
+.img-box:hover img {
+    transform: scale(1.1); /* Zoom-in effect on hover */
+}

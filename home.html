@@ -11,6 +11,7 @@
     <!-- Link to the Favicon -->
     <link rel="icon" href="images/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="home.css">
 </head>
 
 <body>
@@ -18,10 +19,10 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand bg-body-tertiary ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="" href="#">
                 <img src="images/etclogo.png" alt="Logo" width="70" height="70"
                     class="d-inline-block align-text-bottom ">
-                Explore The City
+                <a class="navbar-brand">Explore The City</a>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,8 +58,8 @@
         </div>
     </nav>
 
-    <!--Enter Your Content Here-->
-    <main>
+    <!--Content Starts From Here(Carousel)-->
+    <main class="container-fluid">
         <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -102,79 +103,361 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+        <!-- Heading1-->
+        <div class="container-fluid my-5 ">
+            <div class="">
+                <h2 class="section-title"><span class="highlight">Amazing</span> Tours And Fun</span> <br> Adventures
+                    <span class="highlight">Waiting For You</span>
+                </h2>
+                <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo
+                    ligula eget dolor. Aenean massa cum sociis Theme natoque.</p>
+            </div>
+        </div>
 
-        <!--Popular Destination-->
+        <!--Content1-->
+        <div class="container-fluid m-0 p-0">
+            <div class="row">
+                <div class="col">
+                    <div class="image-box">
+                        <img src="images/mountains.avif" class="img-fluid" alt="Egypt">
+                        <div class="overlay">
+                            <div class="text">Dagdushet Ganpati</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="image-box">
+                        <img src="images/mountains.avif" class="img-fluid" alt="Paris">
+                        <div class="overlay">
+                            <div class="text">Shaniwar Wada</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="image-box">
+                        <img src="images/mountains.avif" class="img-fluid" alt="Cuba">
+                        <div class="overlay">
+                            <div class="text">Aga Khan Palace</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="image-box">
+                        <img src="images/mountains.avif" class="img-fluid" alt="Machu Picchu">
+                        <div class="overlay">
+                            <div class="text">Tamhini Ghat</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Most Popular Destination-->
 
         <div class="mt-5 text-center font-apple-system ">
-            <h1>Most Popular Destination</h1>
+            <h1 class="highlight1">Most Popular Destination</h1>
             <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur delectus,
                 officia sunt molestiae, incidunt excepturi repudiandae sint alias voluptatem voluptatum atque
                 exercitationem fugiat! Consequatur libero amet dolore atque itaque. Eveniet!sit amet consectetur
                 adipisicing elit. Recusandae, est.</p>
         </div>
-
-        <div class="row">
-            <div class="m-5 card col" style="width: 18rem;">
-                <img src="images/mountains.avif" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="m-5 card col" style="width: 18rem;">
+                    <img src="images/mountains.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="m-5 card col" style="width: 18rem;">
+                    <img src="images/mountains.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="m-5 card col " style="width: 18rem;">
+                    <img src="images/mountains.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
             </div>
-            <div class="m-5 card col" style="width: 18rem;">
-                <img src="images/mountains.avif" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-            <div class="m-5 card col " style="width: 18rem;">
-                <img src="images/mountains.avif" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+        <!--Heading3 -->
+        <div class="container-fluid my-5 ">
+            <div class="row">
+                <div class="">
+                    <h2 class="section-title">Choose The <span class="highlight">Destination</span> <br><span
+                            class="highlight">Just Right</span> For
+                        Your Vacation</h2>
+                    <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo
+                        ligula eget dolor. Aenean massa cum sociis Theme natoque.</p>
                 </div>
             </div>
         </div>
 
+        <!--Content3 -->
+
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col p-0 m-0">
+                    <div class="image-box">
+                        <img src="images/mountains.avif" class="img-fluid" alt="Europe">
+                        <div class="text-overlay">
+                            <div class="highlight-text">Europe</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-0 m-0">
+                    <div class="image-box">
+                        <img src="images/mountains.avif" class="img-fluid" alt="Europe">
+                        <div class="text-overlay">
+                            <!-- <div class="highlight-text">Europe</div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-0 m-0">
+                    <h3 class="info-title">Original <span class="highlight">Experience</span></h3>
+                    <p class="info-subtitle text-danger">Been there recently?</p>
+                    <p class="info-text">Lorem ipsum dolor sit amet, consectetur a elit. In ut xullamcorper leo, dsf
+                        eget
+                        euismod orci. Cum sociis natoquepenatibus magnis.</p>
+                    <a href="#" class="learn-more">learn more <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col p-0 m-0">
+                    <h3 class="info-title">Original <span class="highlight">Experience</span></h3>
+                    <p class="info-subtitle text-danger">Been there recently?</p>
+                    <p class="info-text">Lorem ipsum dolor sit amet, consectetur a elit. In ut xullamcorper leo, dsf
+                        eget
+                        euismod orci. Cum sociis natoquepenatibus magnis.</p>
+                    <a href="#" class="learn-more">learn more <i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="col p-0 m-0">
+                    <div class="image-box">
+                        <img src="images/mountains.avif" class="img-fluid" alt="Europe">
+                        <div class="text-overlay">
+                            <div class="highlight-text">Europe</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-0 m-0 ">
+                    <div class="image-box">
+                        <img src="images/mountains.avif" class="img-fluid" alt="Europe">
+                        <div class="text-overlay">
+                            <!-- <div class="highlight-text">Europe</div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!--Deals And Discount Section-->
-        <div class="row">
-            <div class="m-5 col">
-                <h1>Deals And Discount</h1>
-                <div class="row">
-                    <div class="m-3 card col text-bg-light " style="max-width: 18rem;">
-                        <div class="card-header">Header</div>
+        <div class="container-fluid my-5">
+            <div>
+
+                <div class="col-lg-6">
+                    <h2 class="section-title">Special <span class="highlight">Deals And</span> <br> <span
+                            class="highlight">Last Minute</span> Amazing Offers</h2>
+                    <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo
+                        ligula eget dolor. Aenean massa cum sociis Theme natoque.</p>
+                </div>
+            </div>
+            <!-- Content4 -->
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Dazzling Dubai">
                         <div class="card-body">
-                            <h5 class="card-title">Light card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
+                            <span class="badge bg-success"><i class="bi bi-emoji-smile"></i> 6.3 Good</span>
+                            <h5 class="card-title mt-2">Dazzling Dubai</h5>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <span class="text-dark fw-bold">$1380</span>
                         </div>
                     </div>
-                    <div class="m-3 card col text-bg-light " style="max-width: 18rem;">
-                        <div class="card-header">Header</div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Paris Honeymoon Tour">
                         <div class="card-body">
-                            <h5 class="card-title">Light card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
+                            <span class="badge bg-success"><i class="bi bi-emoji-smile"></i> 6.3 Good</span>
+                            <h5 class="card-title mt-2">Paris Honeymoon Tour</h5>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <span class="text-dark fw-bold">$1840</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="The Spanish Riviera">
+                        <div class="card-body">
+                            <span class="badge bg-primary"><i class="bi bi-emoji-smile"></i> 7.0 Superb</span>
+                            <h5 class="card-title mt-2">The Spanish Riviera</h5>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <span class="text-dark fw-bold">$1120</span>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div>
-                
-            </div>
-
-
         </div>
+
+        <div class="container-fluid my-5">
+            <div class="row">
+                <!-- Popular Tour Types -->
+                <div class="col-lg-8 mb-4 ">
+                    <h2 class="highlight1">Popular Tour Types</h2>
+                    <p>Nullam ac justo efficitur, tristique ligula a, pellentesque ipsum. Quisque augue ipsum, vehicula
+                        et tellus nec, maximus viverra metus.</p>
+                    <!-- Content5 -->
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-hand-thumbs-up me-2"></i> Recommended <span
+                                        class="ms-auto text-muted">From $760</span>
+                                </li>
+                                <li class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-wallet2 me-2"></i> Budget Friendly <span
+                                        class="ms-auto text-muted">From $795</span>
+                                </li>
+                                <li class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-people me-2"></i> Escorted tours <span
+                                        class="ms-auto text-muted">From $1120</span>
+                                </li>
+                                <li class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-cloud-sun me-2"></i> City Sightseeing <span
+                                        class="ms-auto text-muted">From $925</span>
+                                </li>
+                                <li class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-bank me-2"></i> Historical Buildings <span
+                                        class="ms-auto text-muted">From $1360</span>
+                                </li>
+                                <li class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-map me-2"></i> Eastern World <span class="ms-auto text-muted">From
+                                        $835</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-tree me-2"></i> Beaches <span class="ms-auto text-muted">From
+                                        $1380</span>
+                                </li>
+                                <li class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-museum me-2"></i> Museum Tours <span class="ms-auto text-muted">From
+                                        $760</span>
+                                </li>
+                                <li class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-cup-straw me-2"></i> Meals Included <span
+                                        class="ms-auto text-muted">From $1025</span>
+                                </li>
+                                <li class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-ship me-2"></i> Cruises <span class="ms-auto text-muted">From
+                                        $1120</span>
+                                </li>
+                                <li class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-balloon me-2"></i> Air Rides <span class="ms-auto text-muted">From
+                                        $960</span>
+                                </li>
+                                <li class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-cloud-lightning-rain me-2"></i> Volcano Adventures <span
+                                        class="ms-auto text-muted">From $1875</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Top Reviews -->
+                <div class="col-lg-4 ">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Top Reviews</h5>
+                            <hr>
+                            <h6 class="card-subtitle mb-2 text-muted">Thailand with Cambodia</h6>
+                            <div class="mb-2">
+                                <!-- Star ratings -->
+                                <span class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                            </div>
+                            <p class="card-text">
+                                Quisque augue ipsum, vehicula et tellus nec, maximus viverra metus. Nullam elementum
+                                nibh nec pellentesque finibus.
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img src="https://via.placeholder.com/40" class="rounded-circle me-2"
+                                    alt="Reviewer Image">
+                                <span>Donald Owens</span>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <button class="btn btn-link"><i class="bi bi-chevron-up"></i></button>
+                            <button class="btn btn-link"><i class="bi bi-chevron-down"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Last Section Of Images Defining Amazzing Photos Of Pune-->
+        <div class="container-fluid m-0 p-0">
+            <div class="row">
+                <div class="col m-0 p-0">
+                    <div class="img-box">
+                        <img src="images/mountains.avif" alt="Image 1">
+                    </div>
+                </div>
+                <div class="col m-0 p-0">
+                    <div class="img-box">
+                        <img src="images/mountains.avif" alt="Image 2">
+                    </div>
+                </div>
+                <div class="col m-0 p-0">
+                    <div class="img-box">
+                        <img src="images/mountains.avif" alt="Image 3">
+                    </div>
+                </div>
+                <div class="col m-0 p-0">
+                    <div class="img-box">
+                        <img src="images/mountains.avif" alt="Image 4">
+                    </div>
+                </div>
+                <div class="col m-0 p-0">
+                    <div class="img-box">
+                        <img src="images/mountains.avif" alt="Image 5">
+                    </div>
+                </div>
+                <div class="col m-0 p-0">
+                    <div class="img-box">
+                        <img src="images/mountains.avif" alt="Image 6">
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     </main>
 
@@ -251,6 +534,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
 
 </body>
 
