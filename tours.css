@@ -1,8 +1,9 @@
 .card-img-top{
-   transition: 3s;
+   transition: infinite;
 }
 .card-img-top:hover{
     transform: scale(1.1);
+    
 }
 
 .INFO1{
@@ -10,5 +11,10 @@
     display: flex;
     padding: 50PX;
     background-color: #e7e7e7;
+}
+
+.content{
+    
+    text-align: center;
 }
 
