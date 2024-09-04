@@ -1,41 +1,41 @@
-body{
+body {
     width: 100%;
+    background-color: #F6F8FB;
 }
 
-.navbar{
+.navbar {
     position: sticky;
     top: 0;
     z-index: 1000;
 }
+
 .navbar-brand {
-    font-size: 50px;
+    font-size: 24px; /* Adjusted for better readability on different screen sizes */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.collapse {
+.navbar-nav .nav-link {
     font-family: Lato, sans-serif;
-    font-size: 23px;
+    font-size: 16px; /* Adjusted for better readability on different screen sizes */
 }
 
-.container1 {
-    margin-left: 140px; 
+.form-control {
+    max-width: 300px; /* Adjusted to prevent search input from being too wide */
 }
 
-.div1 {
-    font-size: 30px;
+.navbar-nav {
     align-items: center;
 }
 
-.container2 {
-    text-align: center;
+.ms-2{
+    font-family: Mitr;
 }
 
-.container3 {
-    text-align: center;
-    font-size: 43px;
-    font-weight: 700;
+@media (max-width: 991px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+    .navbar-nav .nav-link {
+        font-size: 14px;
+    }
 }
-
-.col ul li a {
-    color: #9c9b9b; 
-  }
