@@ -33,7 +33,7 @@
                         <a class="nav-link" aria-current="page" href="home.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html" target="_blank">About Us</a>
+                        <a class="nav-link" href="about1.html" target="_blank">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="destination.html" target="_blank">Destination</a>
@@ -54,49 +54,53 @@
                     </li>
                     <li>
                         <form class="d-flex" role="search">
-                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                          <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form></li>
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </li>
                 </ul>
-                
+
             </div>
         </div>
     </nav>
 
 
-    <!-- Pop-Up Form -->
-    <div id="popup" class="popup">
-        <div class="popup-content">
-            <span class="close-btn">&times;</span>
-            <p style="font-size: 2rem;"><b>Save Upto <span style="color: #28A745">50% Off</span></b></p>
-            <p>We'll be needing some of your basic details to help you better with your trip!</p>
-            <h2></h2>
-            <hr>
-            <form action="#">
-                <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Full Name*" required>
+    <!-- Overlay for popup -->
+<div id="popup-overlay" class="popup-overlay"></div>
+
+<!-- Pop-Up Form -->
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close-btn">&times;</span>
+        <p style="font-size: 2rem;"><b>Save Upto <span style="color: #28A745">50% Off</span></b></p>
+        <p>We'll be needing some of your basic details to help you better with your trip!</p>
+        <h2></h2>
+        <hr>
+        <form action="#">
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Full Name*" required>
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Email*" required>
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">+91</span>
+                <input type="tel" class="form-control" placeholder="Your Phone*" required>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <input type="date" class="form-control" placeholder="Travel Date*" required>
                 </div>
-                <div class="mb-3">
-                    <input type="email" class="form-control" placeholder="Email*" required>
+                <div class="col-md-6 mb-3">
+                    <input type="number" class="form-control" placeholder="Traveller Count*" required>
                 </div>
-                <div class="input-group mb-3">
-                    <span class="input-group-text">+91</span>
-                    <input type="tel" class="form-control" placeholder="Your Phone*" required>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 mb-3">
-                        <input type="date" class="form-control" placeholder="Travel Date*" required>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <input type="number" class="form-control" placeholder="Traveller Count*" required>
-                    </div>
-                </div>
-                <div class="d-grid gap-2 col-14 mx-auto">
-                    <button type="submit">Connect With Your Expert</button>
-                </div>
-            </form>
-        </div>
+            </div>
+            <div class="d-grid gap-2 col-14 mx-auto">
+                <button type="submit">Connect With Your Expert</button>
+            </div>
+        </form>
     </div>
+</div>
 
     <!--Content Starts From Here(Carousel)-->
     <main class="container-fluid">
@@ -115,7 +119,8 @@
                     <img src="images/carouselimg2.jpeg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5></h5>
-                        <p><b>"Where history meets modernity, Pune thrives with a heart full of culture and a spirit of innovation."</b></p>
+                        <p><b>"Where history meets modernity, Pune thrives with a heart full of culture and a spirit of
+                                innovation."</b></p>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -156,36 +161,36 @@
             </div>
         </div>
 
-        
+
         <div class="container-fluid m-0 p-0">
-            <div class="row">
-                <div class="col">
+            <div class="row mx-1">
+                <div class="col-lg-3 col-md-6 col-sm-12 p-0 m-0">
                     <div class="image-box">
-                        <img src="images/Nature.jpeg" class="img-fluid" alt="Egypt">
+                        <img src="images/Nature.jpeg" class="img-fluid" alt="Sinhagad-Fort">
                         <div class="overlay">
                             <div class="text">Sinhagad-Fort</div>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-3 col-md-6 col-sm-12 p-0 m-0">
                     <div class="image-box">
-                        <img src="images/trekking.webp" class="img-fluid" alt="Paris">
+                        <img src="images/trekking.webp" class="img-fluid" alt="Ratangad-Fort">
                         <div class="overlay">
                             <div class="text">Ratangad-Fort</div>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-3 col-md-6 col-sm-12 p-0 m-0">
                     <div class="image-box">
-                        <img src="images/matheran.webp" class="img-fluid" alt="Cuba">
+                        <img src="images/matheran.webp" class="img-fluid" alt="Matheran">
                         <div class="overlay">
                             <div class="text">Matheran</div>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-3 col-md-6 col-sm-12 p-0 m-0">
                     <div class="image-box">
-                        <img src="images/kamshet21.jpeg" class="img-fluid" alt="Machu Picchu">
+                        <img src="images/kamshet21.jpeg" class="img-fluid" alt="Kamshet-Paragliding">
                         <div class="overlay">
                             <div class="text">Kamshet-Paragliding</div>
                         </div>
@@ -194,120 +199,131 @@
             </div>
         </div>
 
-        <!-- Top Attraction Of Pune-->
 
-        <div class="mt-5 text-center font-apple-system ">
+        <!-- Top Attraction Of Pune -->
+
+        <div class="mt-5 text-center font-apple-system">
             <h1 class="highlight1">Top Attraction Of Pune</h1>
-            <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur delectus,
-                officia sunt molestiae, incidunt excepturi repudiandae sint alias voluptatem voluptatum atque
-                exercitationem fugiat! Consequatur libero amet dolore atque itaque. Eveniet!sit amet consectetur
-                adipisicing elit. Recusandae, est.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur delectus, officia sunt molestiae,
+                incidunt excepturi repudiandae sint alias voluptatem voluptatum atque exercitationem fugiat! Consequatur
+                libero
+                amet dolore atque itaque. Eveniet! sit amet consectetur adipisicing elit. Recusandae, est.</p>
         </div>
+
         <div class="container-fluid">
-            <div class="row">
-                <div class="m-3 card col" style="width: 18rem;">
-                    <img src="images/destinationimg/ganpat.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">DagduSheth Ganpati</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="row g-3">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: 100%;">
+                        <img src="images/destinationimg/ganpat.jpg" class="card-img-top" alt="DagduSheth Ganpati">
+                        <div class="card-body">
+                            <h5 class="card-title">DagduSheth Ganpati</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
                 </div>
-                <div class="m-3 card col" style="width: 18rem;">
-                    <img src="images/destinationimg/shaniwar wada.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Shaniwar Wada</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: 100%;">
+                        <img src="images/destinationimg/shaniwar wada.jpg" class="card-img-top" alt="Shaniwar Wada">
+                        <div class="card-body">
+                            <h5 class="card-title">Shaniwar Wada</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
                 </div>
-                <div class="m-3 card col " style="width: 18rem;">
-                    <img src="images/agakhanpalace.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Aga Khan </h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: 100%;">
+                        <img src="images/agakhanpalace.jpg" class="card-img-top" alt="Aga Khan Palace">
+                        <div class="card-body">
+                            <h5 class="card-title">Aga Khan Palace</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <!-- Choose The Destination -->
-        <div class="container-fluid my-5 ">
+        <div class="container-fluid my-5">
             <div class="row">
-                <div class="">
+                <div class="col-12">
                     <h2 class="section-title">Choose The <span class="highlight">Destination</span> <br><span
                             class="highlight">Just Right</span> For
                         Your Vacation</h2>
                     <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo
-                        ligula eget dolor. Aenean massa cum sociis Theme natoque.</p>
+                        ligula
+                        eget dolor. Aenean massa cum sociis Theme natoque.</p>
                 </div>
             </div>
         </div>
 
         <div class="container-fluid">
-            <div class="row ">
-                <div class="col p-0 m-0">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 m-0">
                     <div class="image-box">
-                        <img src="images/wetnjoy31.jpg" class="img-fluid" alt="Europe">
+                        <img src="images/wetnjoy31.jpg" class="img-fluid" alt="Wet'n Joy">
                         <div class="text-overlay">
                             <div class="highlight-text">Wet'n Joy</div>
                         </div>
                     </div>
                 </div>
-                <div class="col p-0 m-0">
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 m-0">
                     <div class="image-box">
-                        <img src="images/wetnjoy.jpg" class="img-fluid" alt="Europe">
+                        <img src="images/wetnjoy.jpg" class="img-fluid" alt="Wet'n Joy">
                         <div class="text-overlay">
-                            <!-- <div class="highlight-text">Europe</div> -->
+                            <!-- Optional text overlay -->
                         </div>
                     </div>
                 </div>
-                <div style="background-color: #FAFAFA;" class="col p-0 m-0 ">
+                <div class="col-lg-4 col-md-12 col-sm-12 p-0 m-0" style="background-color: #FAFAFA;">
                     <div class="m-3">
                         <h3 class="info-title"> Wet'n <span class="highlight">Joy</span></h3>
                         <p class="info-subtitle text-danger">Been there recently?</p>
                         <p class="info-text">Lorem ipsum dolor sit amet, consectetur a elit. In ut xullamcorper leo, dsf
                             eget
-                            euismod orci. Cum sociis natoquepenatibus magnis.</p>
+                            euismod orci. Cum sociis natoque penatibus magnis.</p>
                         <a href="#" class="learn-more">learn more <i class="fas fa-chevron-right"></i></a>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div style="background-color: #FAFAFA;" class="col p-0 m-0">
+                <div class="col-lg-4 col-md-12 col-sm-12 p-0 m-0" style="background-color: #FAFAFA;">
                     <div class="m-3">
-                        <h3 class="info-title">Imagica<span class="highlight"></span></h3>
+                        <h3 class="info-title">Imagica</h3>
                         <p class="info-subtitle text-danger">Been there recently?</p>
                         <p class="info-text">Lorem ipsum dolor sit amet, consectetur a elit. In ut xullamcorper leo, dsf
                             eget
-                            euismod orci. Cum sociis natoquepenatibus magnis.</p>
+                            euismod orci. Cum sociis natoque penatibus magnis.</p>
                         <a href="#" class="learn-more">learn more <i class="fas fa-chevron-right"></i></a>
                     </div>
                 </div>
-                <div class="col p-0 m-0">
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 m-0">
                     <div class="image-box">
-                        <img src="images/imagica12.jpg" class="img-fluid" alt="Europe">
+                        <img src="images/imagica12.jpg" class="img-fluid" alt="Imagica">
                         <div class="text-overlay">
                             <div class="highlight-text">Imagica</div>
                         </div>
                     </div>
                 </div>
-                <div class="col p-0 m-0 ">
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 m-0">
                     <div class="image-box">
-                        <img src="images/imagica35.jpg" class="img-fluid" alt="Europe">
+                        <img src="images/imagica35.jpg" class="img-fluid" alt="Imagica">
                         <div class="text-overlay">
-                            <!-- <div class="highlight-text">Europe</div> -->
+                            <!-- Optional text overlay -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
 
         <!--Deals And Discount Section-->
         <div class="container-fluid my-5">
@@ -372,7 +388,7 @@
                     <h2 class="highlight1">Popular Tour Types</h2>
                     <p>Nullam ac justo efficitur, tristique ligula a, pellentesque ipsum. Quisque augue ipsum, vehicula
                         et tellus nec, maximus viverra metus.</p>
-                   
+
                     <div class="row">
                         <div class="col-6">
                             <ul class="list-unstyled">
@@ -494,50 +510,64 @@
             <h2>People Also Ask About Pune</h2><br>
             <h4>Which are the best adventure spots in Pune?</h4>
             <ol>
-                <li><b>Camping:</b> Offering an escape from the monotonous escape from the city life, Kaas Plateau and Pawna
+                <li><b>Camping:</b> Offering an escape from the monotonous escape from the city life, Kaas Plateau and
+                    Pawna
                     lake are the most famous camping locations near Pune. The tents provided here are of the best
                     quality and are fitted with all basic amenities.</li>
-                <li><b>Trekking:</b> Famous for their rocky trails and dotted with natural beauty throughout, places like the
+                <li><b>Trekking:</b> Famous for their rocky trails and dotted with natural beauty throughout, places
+                    like the
                     Rajmachi fort and Lohagarh fort offer the best terrains which are enough challenging for trekkers.
                 </li>
-                <li><b>Waterfall Rappelling:</b>  Many adventurous places in pune like Dudhiware Waterfall and Bekare waterfall
+                <li><b>Waterfall Rappelling:</b> Many adventurous places in pune like Dudhiware Waterfall and Bekare
+                    waterfall
                     offer you a chance to indulge in Waterfall rappelling. Here you can conquer the flow of water while
                     going up and experiencing the huge flow hitting you.</li>
-                <li><b>Paragliding:</b> Soar above the mountains and experience the panoramic view while you glide above the
+                <li><b>Paragliding:</b> Soar above the mountains and experience the panoramic view while you glide above
+                    the
                     lush valleys while enjoying a fun-filled session of Paragliding in Kamshet, Pune.</li>
             </ol><br>
             <h4>What are the famous adventure treks near Pune?</h4>
             <ol>
-                <li><b>Rajmachi Fort Trek: </b>Standing on a height of 2759 feet, Rajmachi fort can be reached by trekking
+                <li><b>Rajmachi Fort Trek: </b>Standing on a height of 2759 feet, Rajmachi fort can be reached by
+                    trekking
                     along the rocky terrains and steep slopes. Once you reach the top, the panoramic views of the Konkan
                     Plains will offer you a sight to behold.</li>
-                <li><b>Lohagad Fort Trek: </b>Known to be one of the most scenic and picturesque Adventure places near pune,
+                <li><b>Lohagad Fort Trek: </b>Known to be one of the most scenic and picturesque Adventure places near
+                    pune,
                     Lohagad Fort makes you trek through lush green surroundings and tranquil hidden landscapes to reach
                     its ruins. The trek is easy and can be conquered by anyone with normal physique.</li>
-                <li><b>Torna Fort Trek: </b>Challenging the adventure seekers, a trek to this fort offers a thrilling yet
+                <li><b>Torna Fort Trek: </b>Challenging the adventure seekers, a trek to this fort offers a thrilling
+                    yet
                     beautiful experience. The track towards the top is filled with many rocky areas, and offers many
                     panoramic sceneries from all sides.
                 </li>
-                <li><b>Kothaligad:</b> Also known as the fort of Peths, this place was once used as a watch tower. Being placed
+                <li><b>Kothaligad:</b> Also known as the fort of Peths, this place was once used as a watch tower. Being
+                    placed
                     on a height, Kothaligad offers a perfect trekking spot for the adventurous people and offers scenic
                     environment to enjoy while conquering this fortress.</li>
-                <li><b>Raireshwar Trek: </b>Offering the best of nature as well as history, Raireshwar trek takes you towards
+                <li><b>Raireshwar Trek: </b>Offering the best of nature as well as history, Raireshwar trek takes you
+                    towards
                     the cloud while you traverse the multiple stairs and enjoy the serenity around you.</li>
             </ol><br>
             <h4>What are the best places for camping near Pune?</h4>
             <ol>
-                <li><b>Pawna Lake: </b>Pawna Lake is considered to be the best spot for camping near Pune. Being one of the
+                <li><b>Pawna Lake: </b>Pawna Lake is considered to be the best spot for camping near Pune. Being one of
+                    the
                     best adventure places in pune Pawna lake hosts around hundreds of people every day.</li>
-                <li><b>Alibaug: </b>Offering you a chance to camp around the beach, Alibaug hosts some of the best camping
+                <li><b>Alibaug: </b>Offering you a chance to camp around the beach, Alibaug hosts some of the best
+                    camping
                     sites, each offering the best facilities available. In addition to the facilities, here you can also
                     enjoy the live acoustic session while camping.</li>
-                <li><b>Lonavala: </b>A go-to destination for almost every resident of Pune, this hill station provides the
+                <li><b>Lonavala: </b>A go-to destination for almost every resident of Pune, this hill station provides
+                    the
                     visitors with the best climate, thus making it a perfect camping spot. The real essence of camping
                     here can be felt as the moon shines in the sky and illuminates the scenic surroundings.</li>
-                <li><b>Rajmachi Fort: </b>Once a heritage building, this fort can be reached by trekking along the rocky trails
+                <li><b>Rajmachi Fort: </b>Once a heritage building, this fort can be reached by trekking along the rocky
+                    trails
                     and once you reach here, the mesmerising panoramic surroundings here offer a sight to behold. A
                     session of camping at this spot lets you indulge in loads of fun around the blissful bonfire.</li>
-                <li><b>Torna Fort: </b>Standing amidst the surplus greens and serenity are the ruins of Torna Fort. Known to be
+                <li><b>Torna Fort: </b>Standing amidst the surplus greens and serenity are the ruins of Torna Fort.
+                    Known to be
                     a perfect spot for camping, many tourists come here to spend a night camping below the starry sky.
                 </li>
             </ol>
@@ -622,22 +652,26 @@
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     <script>
-        // Show the pop-up immediately after the page loads
         window.onload = function () {
+            // Show the popup and overlay immediately after the page loads
             document.getElementById('popup').style.display = 'flex';
+            document.getElementById('popup-overlay').style.display = 'block';
         }
 
         // Close the pop-up when the close button is clicked
         document.querySelector('.close-btn').onclick = function () {
             document.getElementById('popup').style.display = 'none';
+            document.getElementById('popup-overlay').style.display = 'none';
         }
 
         // Close the pop-up if the user clicks outside of the form
         window.onclick = function (event) {
-            if (event.target == document.getElementById('popup')) {
+            if (event.target == document.getElementById('popup-overlay')) {
                 document.getElementById('popup').style.display = 'none';
+                document.getElementById('popup-overlay').style.display = 'none';
             }
         }
+
 
         $(document).ready(function () {
             $('.customer-logos').slick({
