@@ -6,8 +6,11 @@
     <title>booking </title>
 </head>
 <body>
-
+<div class="container-fluid">
+  <h2>--BOOKING FORM--</h2>
+  
 <form action="reservation.php" method="post">
+  
   <div class="elem-group">
       <label for="name">Your Name</label>
       <input type="text" id="name"  placeholder="Your name"  required>
@@ -33,14 +36,15 @@
     <button type="submit">Submit</button>
   </div>
   </form>
+</div>
   </body>
   </html>
 
-  <style>
-    body {
+<style>
+body {
   width: 500px;
-  margin: 0 auto;
-  padding: 50px;
+  margin:0 auto; 
+  padding: 3px;
 }
 
 label {
@@ -50,18 +54,18 @@ label {
   font-size: 1.25em;
 }
 
-input, select, textarea {
+input, textarea {
   border-radius: 2px;
   border: 2px solid #777;
   box-sizing: border-box;
   font-size: 1.25em;
   font-family: 'Nanum Gothic';
   width: 100%;
-  padding: 10px;
+  padding: 8px;
 }
 
 textarea {
-  height: 150px;
+  height: 80px;
 }
 
 hr {
@@ -69,7 +73,7 @@ hr {
 }
 
 button {
-  height: 50px;
+  height: 30px;
   background: orange;
   border: none;
   color: white;
@@ -82,4 +86,14 @@ button {
 button:hover {
   border: 2px solid black;
 }
+
+h2{
+  margin-top: 2px;
+  text-align: center;
+}
+
+.cover{
+  
+}
+
   </style>
