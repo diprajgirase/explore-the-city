@@ -1,3 +1,58 @@
+/* Overlay to blur the background when the popup is active */
+.popup-overlay {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed positioning to cover the entire viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    backdrop-filter: blur(2px); /* Apply blur effect */
+    z-index: 1040; /* Positioned below the popup but above other content */
+}
+
+/* Popup styles */
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed positioning to stay on top of the viewport */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the popup based on its own width and height */
+    width: 90%; /* Adjust the width as needed */
+    max-width: 450px; /* Maximum width for larger screens */
+    background-color: #fff; /* White background for the popup */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    z-index: 1050; /* Ensure it is above the overlay */
+    padding: 20px; /* Padding inside the popup */
+}
+
+/* Styles for the close button */
+.close-btn {
+    position: absolute; /* Absolute positioning within the popup */
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #000; /* Adjust color if needed */
+}
+/* Style for the submit button */
+button[type="submit"] {
+    background-color: #28A745; /* Green background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Hover effect for the button */
+button[type="submit"]:hover {
+    background-color: #218838; /* Darker green for hover effect */
+}
+
 .image-box {
     position: relative;
 }
