@@ -1,33 +1,26 @@
 
-.about{
-    position:relative;
+body{
     width: 100%;
-    height: 500px;
-    background-image: url("./images/background.jpg");
-    text-align: center;
-    
 }
-.Info{
-       
-       font-family: Arial, sans-serif;
-       text-align:justify;
-       margin-top: 50px;
-       font-size: 20px;
-    
-      
-}
+
 .pune{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align:justify;
     
 }
- .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px;
+
+h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
 }
+
+h3{
+    text-align: center;
+    margin-bottom: 4px;
+}
+
 
 .form-container {
     background-color: #ffffff;
@@ -36,9 +29,10 @@
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
     margin-left: 40px;
     margin-right:40px;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 20px;
     width: 50%;
+    
 }
 
 .contact-details {
@@ -85,9 +79,10 @@
 
 }
 
-.form-container input[type="submit"]:hover {
+.form-container input[type="submit"]{
     background-color: #218838;
-    
+    margin-left: 150px;
+    margin-top: 50px;
 }
 
 .faq-item {
@@ -101,28 +96,38 @@
     font-size: 25px;
   }
   .faq-question {
-    color: rgb(52, 43, 43);
+    color: #555;
     font-weight: bold;
     cursor: pointer;
+    border-bottom: 10px solid #ddd;
     
   }
   .faq-answer {
     display: none;
-    margin-left: 20px;
-    padding-top: 10px;
-    
+    margin-top: 0.5rem;
   }
   .faq-answer.show {
     display: block;
-
-  }
-  .toggle-icon{
-    float: right;
-    font-weight: bold;
-    margin-left: 40px;
-
   }
 
-.container-fliud{
+.container-form{
     display: flex;
+}
+.container-que{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    margin-left: 40px;
+    margin-right:40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 50%;
+   
+
+}
+.toggle-sign{
+    font-weight: bold;
+    margin-left: 100%;
+   
 }
