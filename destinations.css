@@ -65,6 +65,8 @@ body {
 }
 
 .text-overlay {
+    text-align: center;
+    background: #0000000a;
     position: absolute;
     top: 50%;
     left: 50%;
