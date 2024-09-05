@@ -1,4 +1,5 @@
-body {
+
+ body {
     width: 100%;
     background-color: #F6F8FB;
 }
@@ -28,7 +29,8 @@ body {
 }
 
 .ms-2{
-    font-family: Mitr;
+    font-family: 'Share Tech';
+    
 }
 
 @media (max-width: 991px) {
@@ -39,5 +41,6 @@ body {
         font-size: 14px;
     }
 }
+
 
 
