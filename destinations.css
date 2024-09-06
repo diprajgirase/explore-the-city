@@ -1,43 +1,50 @@
-/* nav.css */
 
 body {
     width: 100%;
+    background-color: #F6F8FB;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .navbar-brand {
-    font-size: 50px;
+    font-size: 24px; /* Adjusted for better readability on different screen sizes */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.collapse {
+.navbar-nav .nav-link {
     font-family: Lato, sans-serif;
-    font-size: 23px;
+    font-size: 16px; /* Adjusted for better readability on different screen sizes */
 }
 
-.container1 {
-    margin-left: 140px;
+.form-control {
+    max-width: 300px; /* Adjusted to prevent search input from being too wide */
 }
 
-.div1 {
-    font-size: 30px;
+.navbar-nav {
     align-items: center;
 }
 
-.container2 {
-    text-align: center;
+.ms-2{
+    font-family: 'Share Tech';
+    
 }
 
-.container3 {
-    text-align: center;
-    font-size: 43px;
-    font-weight: 700;
+@media (max-width: 991px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+    .navbar-nav .nav-link {
+        font-size: 14px;
+    }
 }
 
-.col ul li a {
-    color: #9c9b9b;
-}
 
-/* /nav.css */
+
+
 
 
 
@@ -144,120 +151,3 @@ body {
     transform: scale(1.1);
 }
 
-
-/* shaniwarwada */
-
-img {
-    max-width: 100%;
-}
-
-img,
-svg {
-    vertical-align: middle;
-}
-
-*,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-.row {
-    --bs-gutter-x: 2rem;
-    --bs-gutter-y: 0;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-top: calc(var(--bs-gutter-y)* -1);
-    margin-right: calc(var(--bs-gutter-x)* -.5);
-    margin-left: calc(var(--bs-gutter-x)* -.5);
-}
-
-body {
-    font-size: 1rem;
-    line-height: 1.65714286em;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-family: "Poppins", sans-serif;
-    color: #3c4043;
-}
-
-.carousel-item active img {
-    transform: scale(1.1);
-}
-
-/* sinhgadfort */
-
-
-img {
-    max-width: 100%;
-}
-
-img,
-svg {
-    vertical-align: middle;
-}
-
-*,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-.row {
-    --bs-gutter-x: 2rem;
-    --bs-gutter-y: 0;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-top: calc(var(--bs-gutter-y)* -1);
-    margin-right: calc(var(--bs-gutter-x)* -.5);
-    margin-left: calc(var(--bs-gutter-x)* -.5);
-}
-
-body {
-    font-size: 1rem;
-    line-height: 1.65714286em;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-family: "Poppins", sans-serif;
-    color: #3c4043;
-}
-
-.carousel-item active img {
-    transform: scale(1.1);
-}
