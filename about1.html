@@ -127,29 +127,30 @@
                   <form action="/submit_form" method="post" class="flex-grow-1">
                     <div class="form-group">
                       <label for="first-name">First Name</label>
-                      <input type="text" id="first-name" name="first-name" class="form-control" placeholder="Your first name" required>
+                      <input type="text" id="first-name" name="first-name" class="form-control" placeholder="Your first name" required style="height: 50px; font-size: 16px;">
                     </div>
                     <div class="form-group">
                       <label for="last-name">Last Name</label>
-                      <input type="text" id="last-name" name="last-name" class="form-control" placeholder="Your last name" required>
+                      <input type="text" id="last-name" name="last-name" class="form-control" placeholder="Your last name" required style="height: 50px; font-size: 16px;">
                     </div>
                     <div class="form-group">
                       <label for="email">Email</label>
-                      <input type="email" id="email" name="email" class="form-control" placeholder="Your email address" required>
+                      <input type="email" id="email" name="email" class="form-control" placeholder="Your email address" required style="height: 50px; font-size: 16px;">
                     </div>
                     <div class="form-group">
                       <label for="mobile">Mobile No</label>
-                      <input type="number" id="mobile" name="mobile" class="form-control" placeholder="Your mobile number" required>
+                      <input type="number" id="mobile" name="mobile" class="form-control" placeholder="Your mobile number" required style="height: 50px; font-size: 16px;">
                     </div>
                     <div class="form-group">
                       <label for="message">Message</label>
-                      <textarea id="message" name="message" class="form-control" placeholder="Send your message"></textarea>
+                      <textarea id="message" name="message" class="form-control" placeholder="Send your message" style="height: 100px; font-size: 16px;"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary mt-3 align-self-center">Submit</button>
+                    <button type="submit" class="btn btn-success mt-3 mx-auto d-block">Submit</button>
                   </form>
                 </div>
               </div>
             </div>
+        
         
             <!-- FAQ Section -->
             <div class="col-md-6 d-flex align-items-stretch">
@@ -269,11 +270,9 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
       </div>
     </div>
-  </div>
-
-        
-
-        
+  </div>       
+<br>
+<br>     
           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -316,7 +315,11 @@
         
         
 </main>
-
+<style>
+  input {
+    width: 100%;
+  }
+</style>
     <!-- Footer -->
     <footer class="bg-dark text-white py-3">
         <div class="container1 container row ">
