@@ -1,4 +1,3 @@
-
 body {
     width: 100%;
     background-color: #F6F8FB;
@@ -11,32 +10,36 @@ body {
 }
 
 .navbar-brand {
-    font-size: 24px; /* Adjusted for better readability on different screen sizes */
+    font-size: 24px;
+    /* Adjusted for better readability on different screen sizes */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .navbar-nav .nav-link {
     font-family: Lato, sans-serif;
-    font-size: 16px; /* Adjusted for better readability on different screen sizes */
+    font-size: 16px;
+    /* Adjusted for better readability on different screen sizes */
 }
 
 .form-control {
-    max-width: 300px; /* Adjusted to prevent search input from being too wide */
+    max-width: 300px;
+    /* Adjusted to prevent search input from being too wide */
 }
 
 .navbar-nav {
     align-items: center;
 }
 
-.ms-2{
+.ms-2 {
     font-family: 'Share Tech';
-    
+
 }
 
 @media (max-width: 991px) {
     .navbar-brand {
         font-size: 20px;
     }
+
     .navbar-nav .nav-link {
         font-size: 14px;
     }
@@ -95,9 +98,9 @@ body {
 
 
 /* ganapati */
-
-img {
+img  {
     max-width: 100%;
+    
 }
 
 img,
@@ -151,4 +154,3 @@ body {
 .carousel-item active img {
     transform: scale(1.1);
 }
-
