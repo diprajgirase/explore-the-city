@@ -138,6 +138,13 @@ button[type="submit"]:hover {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
+/* Responsive Head Lines */
+/* Adjust font size for mobile devices (screens smaller than 576px) */
+@media (max-width: 576px) {
+    .section-title {
+        font-size: 1.5rem; /* Smaller font size for mobile */
+    }
+}
 
 /* Choose The Dest Just Right For Vac */
 .info-title {
